@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "731903489636",
+    "project_id": "mychat-fe77b",
+    "storage_bucket": "mychat-fe77b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731903489636:android:60113ba5e7d03226b09171",
+        "android_client_info": {
+          "package_name": "com.jackhack2002.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731903489636-8oicorcmtiqrramvucv49a4t19uu2k0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9d5nzMQZ6Ugvt6cQwQ9YFcviNE5qj6pY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731903489636-8oicorcmtiqrramvucv49a4t19uu2k0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
