@@ -34,21 +34,21 @@
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/attach_file"
                 android:src="@drawable/attach_file_image"
-                android:paddingLeft="5dp"
-                android:layout_width="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_width="45dp"
                 android:layout_height="match_parent"/>
 
 
             <ImageView
                 android:id="@+id/sendMessage"
                 android:src="@drawable/send_image"
-                android:paddingRight="5dp"
-                android:layout_width="wrap_content"
+                android:paddingRight="10dp"
+                android:layout_width="45dp"
                 android:layout_height="match_parent"/>
         </LinearLayout>
 
