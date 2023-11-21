@@ -1,11 +1,10 @@
 package com.jackhack2002.mychat;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
@@ -15,7 +14,6 @@ import com.google.firebase.auth.UserProfileChangeRequest;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.jackhack2002.mychat.databinding.ActivityAuthBinding;
-import com.jackhack2002.mychat.databinding.ActivityMainBinding;
 
 public class AuthActivity extends AppCompatActivity {
 

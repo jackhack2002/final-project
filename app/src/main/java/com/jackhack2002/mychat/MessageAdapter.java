@@ -25,7 +25,11 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MyViewHo
         MessageModelList=new ArrayList<>();
     }
 
-   public void add(MessageModel userModel){
+    public MessageAdapter(List<String> messages) {
+
+    }
+
+    public void add(MessageModel userModel){
         MessageModelList.add(userModel);
         notifyDataSetChanged();
    }

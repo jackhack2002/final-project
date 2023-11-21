@@ -21,7 +21,7 @@
         android:layout_height="60dp">
 
         <EditText
-            android:id="@+id/messageEd"
+            android:id="@+id/messageId"
             android:padding="15dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"

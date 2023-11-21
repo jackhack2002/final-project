@@ -1,12 +1,13 @@
 package com.jackhack2002.mychat;
 
 public class UserModel {
-    private String userId,userName,userEmail,userPassword;
+    private String userId,userName,userEmail,userPhone,userPassword;
 
-    public UserModel(String userId, String userName, String userEmail, String userPassword) {
+    public UserModel(String userId, String userName, String userEmail, String userPhone) {
         this.userId = userId;
         this.userName = userName;
         this.userEmail = userEmail;
+        this.userPhone = userPhone;
         this.userPassword = userPassword;
     }
 
@@ -33,6 +34,7 @@ public class UserModel {
     public void setUserEmail(String userEmail) {
         this.userEmail = userEmail;
     }
+
 
     public String getUserPassword() {
         return userPassword;

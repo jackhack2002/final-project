@@ -1,14 +1,13 @@
 package com.jackhack2002.mychat;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -16,7 +15,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.jackhack2002.mychat.databinding.ActivityMainBinding;
+//import com.jackhack2002.mychat.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         userAdapter = new UserAdapter(this);
-        binding.recycler.setAdapter(userAdapter);
-        binding.recycler.setLayoutManager(new LinearLayoutManager(this));
 
         databaseReference = FirebaseDatabase.getInstance().getReference("users");
 
